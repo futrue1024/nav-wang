@@ -7,7 +7,7 @@ const simpleUrl = (url) => {
   return url
     .replace("http://", "")
     .replace("https://", "")
-    .replace("www", "")
+    .replace("www.", "")
     .replace(/\/.*/, "");
 }; //要返回，要不的话后面调用simpleUrl不起作用，使得没有修改后的url
 const render = () => {

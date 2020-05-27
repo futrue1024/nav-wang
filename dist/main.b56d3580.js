@@ -128,7 +128,7 @@ var hasMap = xObject || [{
 }];
 
 var simpleUrl = function simpleUrl(url) {
-  return url.replace("http://", "").replace("https://", "").replace("www", "").replace(/\/.*/, "");
+  return url.replace("http://", "").replace("https://", "").replace("www.", "").replace(/\/.*/, "");
 }; //要返回，要不的话后面调用simpleUrl不起作用，使得没有修改后的url
 
 
@@ -206,4 +206,4 @@ $(document).on("keypress", function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.cf37b3c3.js.map
+//# sourceMappingURL=main.b56d3580.js.map
