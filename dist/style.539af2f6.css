@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+*:before*:after {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  background: #e5e5e5;
+}
+.globalHeader {
+  margin: 20px;
+}
+.searchForm {
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 500px) {
+  .searchForm {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+}
+.searchForm > input {
+  width: 100%;
+  border-radius: 6px;
+  height: 40px;
+  padding: 0 20px;
+  border: 1px solid #dddddd;
+}
+.searchForm > button {
+  white-space: nowrap;
+  border-radius: 6px;
+  margin-left: 14px;
+  padding: 0 28px;
+  border: 1px solid #dddddd;
+  background: #13afc5;
+  color: #ffffff;
+  font-size: 16px;
+}
+@media (min-width: 500px) {
+  .globalMain {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.siteList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+@media (min-width: 500px) {
+  .siteList {
+    margin-right: -53px;
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+}
+.siteList > li {
+  margin-bottom: 10px;
+  background: #ffffff;
+  border-radius: 6px;
+  position: relative;
+}
+@media (min-width: 500px) {
+  .siteList > li {
+    margin-right: 53px;
+    margin-bottom: 30px;
+  }
+}
+.siteList .site {
+  width: 160px;
+  height: 120px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.siteList .site > .logo {
+  width: 64px;
+  height: 64px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.siteList .site > .link {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+@media (min-width: 500px) {
+  .close {
+    display: none;
+  }
+  .siteList .site:hover > .close {
+    display: block;
+  }
+}
+
+.newAdd > li {
+  border: 1px solid red;
+  margin-bottom: 10px;
+  background: #ffffff;
+  border-radius: 6px;
+}
+.addLink {
+  width: 160px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.addLink .logo {
+  width: 64px;
+  height: 64px;
+}
+.addLink > .link {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.love {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*# sourceMappingURL=style.539af2f6.css.map */
